@@ -7,7 +7,7 @@ test.only('my first test @smoke', async ({ page }) => {
   await expect(page).toHaveTitle("Google");
 });
 
-test('my second test', async ({ page }) => {
+test('my second --test', async ({ page }) => {
   await page.goto('https://indianairlines.com/');
 
   // Expect a title "to contain" a substring.
